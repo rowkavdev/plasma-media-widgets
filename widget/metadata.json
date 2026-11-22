@@ -1,0 +1,15 @@
+{
+  "KPlugin": {
+    "Id": "dev.rowkav.mediawidgets",
+    "Name": "Plasma Media Widgets",
+    "Description": "View qBittorrent downloads, storage and system activity",
+    "Version": "0.1.0",
+    "License": "MIT",
+    "Icon": "utilities-system-monitor",
+    "Category": "System Information",
+    "Website": "https://github.com/rowkavdev/plasma-media-widgets",
+    "Authors": [{"Name": "Rowan Kavanagh"}]
+  },
+  "KPackageStructure": "Plasma/Applet",
+  "X-Plasma-API-Minimum-Version": "6.0"
+}

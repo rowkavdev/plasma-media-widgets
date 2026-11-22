@@ -1,0 +1,15 @@
+[package]
+name = "plasma-media-widgets"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.88"
+license = "MIT"
+repository = "https://github.com/rowkavdev/plasma-media-widgets"
+description = "Local Rust feed for Plasma downloads and system widgets"
+
+[dependencies]
+libc = "0.2"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tiny_http = "0.12"
+ureq = { version = "3.4", features = ["cookies", "json"] }

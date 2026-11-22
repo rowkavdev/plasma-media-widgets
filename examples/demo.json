@@ -1,0 +1,46 @@
+{
+  "downloads": {
+    "active": 1,
+    "incomplete": 2,
+    "moving": 1,
+    "seeding": 8,
+    "total": 11,
+    "stats": {
+      "total_peer_connections": 18,
+      "free_space_on_disk": 286750000000
+    },
+    "downloads": [
+      {"title": "Open media sample collection", "progress": 0.63, "down": 0, "eta": 0, "state": "moving", "category": "Media", "seeds": 0},
+      {"title": "Fedora KDE live image", "progress": 0.82, "down": 8800000, "eta": 104, "state": "downloading", "category": "Linux", "seeds": 25},
+      {"title": "Debian live image", "progress": 0.26, "down": 0, "eta": 0, "state": "stalledDL", "category": "Linux", "seeds": 0}
+    ],
+    "completed": [
+      {"title": "Blender open movie files", "ratio": 1.32, "size": 3800000000},
+      {"title": "Ubuntu desktop image", "ratio": 2.12, "size": 6500000000}
+    ]
+  },
+  "system": {
+    "cpu": 27.8,
+    "temperature": 49.5,
+    "uptime": 184324,
+    "cores": [
+      {"name": "cpu0", "percent": 14},
+      {"name": "cpu1", "percent": 62},
+      {"name": "cpu2", "percent": 4},
+      {"name": "cpu3", "percent": 31}
+    ],
+    "memory_used": 8400000000,
+    "memory_total": 32000000000,
+    "swap_used": 170000000,
+    "swap_total": 4000000000,
+    "disks": [
+      {"name": "System", "used": 130000000000, "total": 500000000000, "free": 345000000000},
+      {"name": "Media", "used": 2310000000000, "total": 4000000000000, "free": 1570000000000},
+      {"name": "Archive", "used": 778000000000, "total": 2000000000000, "free": 1180000000000}
+    ],
+    "drive_rates": [
+      {"name": "NVMe", "read": 5120000, "write": 2048000},
+      {"name": "Media drive", "read": 620000, "write": 82000000}
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "port": 18771,
+  "qbittorrent": {
+    "url": "http://127.0.0.1:8080",
+    "move_paths": [
+      {"client_root": "/downloads", "local_root": "/mnt/downloads"}
+    ]
+  },
+  "system": {
+    "disks": [
+      {"name": "System", "path": "/"},
+      {"name": "Media", "path": "/mnt/media"}
+    ],
+    "devices": [
+      {"name": "System SSD", "device": "nvme0n1"},
+      {"name": "Media drive", "device": "sda"}
+    ]
+  }
+}

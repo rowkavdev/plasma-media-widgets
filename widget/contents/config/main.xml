@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0">
+  <kcfgfile name=""/>
+  <group name="General">
+    <entry name="cardMode" type="Int">
+      <default>0</default>
+    </entry>
+    <entry name="backendPort" type="Int">
+      <default>18771</default>
+    </entry>
+  </group>
+</kcfg>
